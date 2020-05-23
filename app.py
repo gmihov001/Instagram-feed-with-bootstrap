@@ -1,4 +1,6 @@
-f = open("content.html", "r")
+grid = open("content.html", "r")
+feed = open("feed.html", "r")
+
 print(f"""
 
 <!DOCTYPE html>
@@ -46,8 +48,16 @@ print(f"""
             </form>
         </div>
     </nav>
+
+    <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href={grid.read()}>Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href={feed.read()}>Link</a>
+        </li>
+    </ul>
     
-    {f.read()}
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

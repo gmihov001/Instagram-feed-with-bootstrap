@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+#feed {
+    width: 650px;
+}
+
+.row div {
+    height: 320px;
+    text-align: center;
+}
+
+.row img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.middle img {
+     width: 100%;
+     height: auto;
+}

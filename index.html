@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />    
+</head>
+<body>
+    <div class="container-fluid fixed-top mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+                <div class="mr-2"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <a class="navbar-brand" href="#">Instagram</a>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <li class="nav-item d-flex align-self-center dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </div>
+        </nav>
+
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#tiles"><i class="fa fa-calendar" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#feed"><i class="fa fa-address-card-o" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid my-5 px-5" id="tiles">
+        <div class="row my-5"></div>
+        <div class="row no-gutters d-flex justify-content-between">
+            <div class="col col-auto">
+                <img src="https://i.ytimg.com/vi/mAX9qzX_LQU/maxresdefault.jpg" alt="">
+            </div>
+            <div class="col col-auto">
+                <img src="https://bemorepanda.com/files/2020-04-10/images/879738.jpeg" alt="">
+            </div>
+            <div class="col col-auto">
+                <img src="https://i.ytimg.com/vi/VB4CCHHYOqY/maxresdefault.jpg" alt="">
+            </div>
+        </div>
+        <div class="row no-gutters d-flex justify-content-between">
+            <div class="col col-auto">
+                <img src="https://i.pinimg.com/originals/57/4c/07/574c078f2d843db29103e796ddd98d3d.jpg" alt="">
+            </div>
+            <div class="col col-auto">
+                <img src="https://iruntheinternet.com/lulzdump/images/bored-dog-is-lying-down-12687480045.jpg" alt="">
+            </div>
+            <div class="col col-auto">
+                <img src="https://media.gettyimages.com/photos/monkeys-on-moss-covered-stone-against-trees-picture-id1147953148?s=612x612" alt="">
+            </div>
+        </div>
+        <div class="row no-gutters d-flex justify-content-between">
+            <div class="col col-auto">
+                <img src="https://filmdaily.co/wp-content/uploads/2020/04/funny-animals-lede.jpg" alt="">
+            </div>
+            <div class="col col-auto">
+                <img src="https://astrotalk.com/astrology-blog/wp-content/uploads/2020/03/funny252520hd.jpg" alt="">
+            </div>
+            <div class="col col-auto">
+                <img src="https://i.pinimg.com/564x/e2/01/08/e20108982cdc8659a938c499ea656499.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="feed">
+        <div class="row zero my-5"></div>
+        <div class="card">
+            <div class="header">
+                <span>My first photo</span>
+                <span>12/14</span>
+            </div>
+            <div class="middle">
+                <img src="https://filmdaily.co/wp-content/uploads/2020/05/dog-videos-lede-1300x868.jpg"  alt="cute dog photo" />
+            </div>
+            <div class="bottom">
+                <span class="d-block my-2">23 likes</span>
+                <span class="d-block my-3">This is my first photo</span>
+                <div>
+                    <span class="mr-2"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                    <input class="rounded text-secondary mr-2" placeholder="Comment..."/>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <span>My second photo</span>
+                <span>12/13</span>
+            </div>
+            <div class="middle">
+                <img src="https://cdn8.dissolve.com/p/D929_35_192/D929_35_192_1200.jpg" width="600" alt="cute dog photo" />
+            </div>
+            <div class="bottom">
+                <span>23 likes</span>
+                <span>This is my second photo</span>
+                <div>
+                    <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                    <input class="rounded text-secondary" placeholder="Comment..."/>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <span>My third photo</span>
+                <span>12/12</span>
+            </div>
+            <div class="middle">
+                <img src="http://www.cutestpaw.com/wp-content/uploads/2014/09/Pug-on-skateboard.jpg" width="600" alt="cute dog photo" />
+            </div>
+            <div class="bottom">
+                <span>23 likes</span>
+                <span>This is my third photo</span>
+                <div>
+                    <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                    <input class="rounded text-secondary" placeholder="Comment..."/>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <span>My fourth photo</span>
+                <span>12/10</span>
+            </div>
+            <div class="middle">
+                <img src="https://cdn.pixeltote.com/marketing/assets/previews/9/1/91f3b993-2bc6-472c-8e53-ea6bb1e764a7/pv-lg-young-woman-in-casual-clothing-working-on-a-laptop-from-home-default-stock-photo-7.jpg" width="600" alt="cute dog photo" />
+            </div>
+            <div class="bottom">
+                <span>23 likes</span>
+                <span>This is my fourth photo</span>
+                <div>
+                    <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                    <input class="rounded text-secondary" placeholder="Comment..."/>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+</html>
